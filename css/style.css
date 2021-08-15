@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Scroll Bar */
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #212529;
+}
+body::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, rgba(209, 209, 209));
+  border-radius: 5px;
+}
+.card-title{
+  font-size: 12pt;
+}
+.card-text{
+  font-size: 10pt;
+}
+
+/*Jumbotron*/
+.jumbotron {
+  padding-top: 6rem;
+  height: 450px;
+}
+.jumbotron img {
+  border: 2px solid rgb(209, 209, 209);
+}
+#jumbotron h1,
+#jumbotron p {
+  color: #000;
+}
+
+/*About*/
+#about {
+  background-color: rgb(209, 209, 209);
+  padding-bottom: 4rem;
+  color: #fff;
+  overflow: hidden;
+}
+#about .container {
+  margin-top: -5rem;
+}
+#about middle {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+#about .middle .btn {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #f1f1f1;
+  margin: 0 1vw;
+  border-radius: 30%;
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+  color: rgb(209, 209, 209);
+  overflow: hidden;
+  position: relative;
+}
+#about .middle .btn i {
+  margin-top: 1.5vh;
+  transition: 0.2s linear;
+}
+#about .middle .btn:hover i {
+  transform: scale(1.5);
+  color: #fff;
+}
+#about .middle .btn::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: rgb(209, 209, 209);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+#about .middle .btn:hover::before {
+  animation: aaa 0.7s 1;
+  top: -10%;
+  left: -10%;
+}
+
+/*Skill*/
+#skill {
+  margin-top: -6rem;
+  margin-bottom: 6rem;
+  overflow: hidden;
+}
+#skill h2 {
+  color: #000 !important;
+}
+#skill .card {
+  margin: 0 30px 30px 20px;
+}
+#skill .content {
+  display: block;
+}
+#skill i {
+  padding-top: 1rem;
+  font-size: 50px;
+}
+#skill i.fa-html5 {
+  color: #d2240f;
+}
+#skill i.fa-css3-alt {
+  color: #2b4abf;
+}
+#skill i.fa-bootstrap {
+  color: #8b03a3;
+}
+#skill i.fa-php {
+  color: #4249f9;
+}
+#skill i.fa-laravel {
+  color: rgb(227, 22, 22);
+}
+
+/*Projects*/
+#projects {
+  padding-top: -2rem;
+  padding-bottom: 4rem;
+  background-color: rgb(209, 209, 209);
+  color: #000;
+}
+#projects h2 {
+  margin-top: -7rem;
+}
+
+/* Gallery */
+#gallery {
+  margin-top: -7rem;
+}
+.vertical{
+  display: flex;
+  align-content: center;
+  vertical-align: middle;
+  align-self: center;
+}
+
+/* Contoh */
+#certificate{
+  background-color: rgb(209, 209, 209);
+  overflow: hidden;
+}
+
+/*Footer*/
+#footer {
+  font-size: 14px;
+  background-color: #212529;
+}
+#footer p {
+  margin-top: -7rem;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+}
+#footer a:hover {
+  text-decoration: underline;
+}
+
+/*section*/
+section {
+  padding-top: 10rem;
+}
+
+/* Media Query */
+@media (min-width: 676px) {
+  #skill .content {
+    display: flex;
+  }
+  #skill .card {
+    margin: 15px auto;
+    width: 150px;
+  }
+}
+
+/*Animasi*/
+@keyframes aaa {
+  0% {
+    left: -110%;
+    top: 90%;
+  }
+
+  50% {
+    left: 10%;
+    top: -30%;
+  }
+
+  100% {
+    top: -10%;
+    left: -10%;
+  }
+}

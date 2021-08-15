@@ -1,0 +1,132 @@
+svg:nth-child(even){
+  margin-bottom: -1rem;
+}
+svg:nth-child(4){
+  margin-top: -1rem;
+}
+svg:nth-child(8){
+  margin-top: -1rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.str0 {
+stroke: #fefefe;
+stroke-width: 1;
+}
+
+.fil0 {
+fill: none;
+}
+
+#logo {
+width: 10in;
+overflow: hidden;
+}
+
+.container2 {
+position: fixed;
+height: 100vh;
+width: 100vw;
+background-color: #333;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 999 !important;
+overflow: hidden !important;
+}
+.container2 svg{
+    overflow: hidden !important; 
+    width: 2rem;
+}
+
+.svg{
+    overflow: hidden !important;
+    background-color: #333;
+    width: 292px;
+    height: 40vh;
+}
+
+/* Letter D */
+#logo #letter-d polygon:nth-child(1) {
+stroke-dasharray: 8200px;
+stroke-dashoffset: 8200px;
+animation: animate 5.9s ease forwards;
+}
+
+#logo #letter-d polygon:nth-child(2) {
+stroke-dasharray: 8200px;
+stroke-dashoffset: 8200px;
+animation: animate 6s ease forwards;
+}
+
+#logo #letter-d polyline:nth-child(3) {
+stroke-dasharray: 3300px;
+stroke-dashoffset: 3300px;
+animation: animate 1s ease forwards 2.5s;
+}
+
+#logo #letter-d polyline:nth-child(4) {
+stroke-dasharray: 2200px;
+stroke-dashoffset: 2200px;
+animation: animate 1s ease forwards 2.5s;
+}
+
+#logo #letter-d polyline:nth-child(5) {
+stroke-dasharray: 2200px;
+stroke-dashoffset: 2200px;
+animation: animate 1s ease forwards 2.5s;
+}
+/* Akhir Letter D */
+
+/* Letter C */
+#logo #letter-c polygon:nth-child(1) {
+stroke-dasharray: 8200px;
+stroke-dashoffset: 8200px;
+animation: animate 3s ease forwards;
+}
+
+#logo #letter-c polyline:nth-child(2) {
+stroke-dasharray: 1100px;
+stroke-dashoffset: 1100px;
+animation: animate 1s ease forwards 2.5s;
+}
+
+#logo #letter-c polyline:nth-child(3) {
+stroke-dasharray: 1610px;
+stroke-dashoffset: 1610px;
+animation: animate 1s ease forwards 2.5s;
+}
+
+#logo #letter-c polyline:nth-child(4) {
+stroke-dasharray: 1640px;
+stroke-dashoffset: 1640px;
+animation: animate 1s ease forwards 2.5s;
+}
+
+#logo #letter-c polyline:nth-child(5) {
+stroke-dasharray: 1640px;
+stroke-dashoffset: 1640px;
+animation: animate 1s ease forwards 2.5s;
+}
+
+#logo #letter-c line {
+stroke-dasharray: 600px;
+stroke-dashoffset: 600px;
+animation: animate 1s ease forwards 2.5s;
+}
+/* Akhir Letter C */
+
+@keyframes animate {
+from {
+    stroke-width: 50;
+}
+to {
+    stroke-dashoffset: 0;
+    stroke-width: 20;
+}
+}
