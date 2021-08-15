@@ -134,12 +134,6 @@ body::-webkit-scrollbar-thumb{
 #gallery {
   margin-top: -7rem;
 }
-.vertical{
-  display: flex;
-  align-content: center;
-  vertical-align: middle;
-  align-self: center;
-}
 
 /* Contoh */
 #certificate{
