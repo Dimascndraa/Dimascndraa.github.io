@@ -2,7 +2,7 @@
 
 // Contact Form
 const scriptURL =
-"https://script.google.com/macros/s/AKfycbw2GeGhzjD7ppsacg4-6XVJiCZGKBoBErrZ1Yyb2UkhyLk56Tgj4Oa_6NOgDxg00mNV/exec";
+"https://script.google.com/macros/s/AKfycbywVwCT41F0YI8nxT5NCgfH3KeKANkpWYuFqjjdF-UXr9nmv2kjH3Yafbb0iouDQdYQcQ/exec";
 const form = document.forms["dmscndraa-contact-form"];
 const btnKirim = document.querySelector(".btn-kirim");
 const btnLoading = document.querySelector(".btn-loading");
