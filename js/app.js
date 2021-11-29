@@ -28,7 +28,7 @@ form.addEventListener("submit", (e) => {
   
   // AOS
   AOS.init({
-    once: true
+    // once: true
   });
   
   // GSAP

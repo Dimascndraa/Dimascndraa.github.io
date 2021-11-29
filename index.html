@@ -105,10 +105,16 @@
     <!--Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section id="jumbotron" class="jumbotron text-center">
+    <section id="jumbotron" class="jumbotron text-center overflow-hidden">
       <div class="container">
-        <img src="img/pp.png" width="200" alt="Dimas Candra" class="img-thumbnail rounded-circle anima" />
-        <h1 class="display-4">Dimas Candra</h1>
+        <div class="logo-box">
+          <img src="img/pp.png" width="200" alt="Dimas Candra" class="rounded-circle anima logo" />
+        </div>
+        <h1 class="display-4">
+          <span class="kata">D</span><span class="kata">i</span><span class="kata">m</span><span class="kata">a</span><span class="kata">s</span>
+          
+          <span class="kata">C</span><span class="kata">a</span><span class="kata">n</span><span class="kata">d</span><span class="kata">r</span><span class="kata">a</span>
+        </h1>
         <p class="lead pb-5"></p>
       </section>
     </div>
@@ -116,7 +122,7 @@
       <!-- Akhir Jumbotron -->
       
     <!-- About -->
-    <section id="about">
+    <section id="about" class="overflow-hidden">
       <div class="container">
         <div class="row text-center">
           <div class="col-sm-12 mb-4">
@@ -157,22 +163,22 @@
     <!-- Akhir About -->
 
     <!-- Skill -->
-    <section id="skill">
+    <section id="skill" class="overflow-hidden">
       <div class="container">
         <div class="text-center">
             <h2 class="text-light mb-5">My Skill</h2>
             
           <div class="row justify-content-center mb-5">
             <h5 class="text-center">Applications & Software</h5>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-up" data-aos-duration="700">
-              <i class="iconify" data-icon="logos:figma" style="color: #e38716;" data-width="40"></i>
-              <h5 class="card-title">Figma</h5>
+            <div class="col-sm-2 col-lg-3 mt-4" data-aos="fade-right" data-aos-duration="700">
+                <i class="iconify" data-icon="logos:figma" style="color: #e38716; margin: auto;" data-width="40"></i>
+                <h5 class="card-title">Figma</h5>
             </div>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-up" data-aos-duration="700">
+            <div class="col-sm-2 col-lg-3 mt-4" data-aos="fade-up" data-aos-duration="700">
               <img src="https://img.icons8.com/color/60/000000/visual-studio-code-2019.png" />
-              <h5 class="card-title">Visual Studio Code</h5>
+              <h5 class="card-title">VSCode</h5>
             </div>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-up" data-aos-duration="700">
+            <div class="col-sm-2 col-lg-3 mt-4" data-aos="fade-left" data-aos-duration="700">
               <img src="https://img.icons8.com/fluency/60/000000/sublime-text.png" />
               <h5 class="card-title">Sublime Text</h5>
             </div>
@@ -180,15 +186,15 @@
 
           <div class="row justify-content-center mt-5">
             <h5 class="text-center mt-5">Frontend</h5>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-up" data-aos-duration="700">
+            <div class="col-sm-2 col-lg-3" data-aos="fade-right" data-aos-duration="700">
               <i class="fab fa-html5"></i>
               <h5 class="card-title">HTML</h5>
             </div>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-up" data-aos-duration="700">
+            <div class="col-sm-2 col-lg-3" data-aos="fade-up" data-aos-duration="700">
               <i class="fab fa-css3-alt"></i>
               <h5 class="card-title">CSS</h5>
             </div>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-up" data-aos-duration="700">
+            <div class="col-sm-2 col-lg-3" data-aos="fade-left" data-aos-duration="700">
               <i class="fab fa-bootstrap"></i>
               <h5 class="card-title">Bootstrap</h5>
             </div>
@@ -196,15 +202,15 @@
           
           <div class="row justify-content-center mt-5">
             <h5 class="text-center mt-5">Backend</h5>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-right" data-aos-duration="700">
+            <div class="col-sm-2 col-lg-3" data-aos="fade-right" data-aos-duration="700">
               <i class="fab fa-php"></i>
               <h5 class="card-title">PHP</h5>
             </div>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-right" data-aos-duration="700">
+            <div class="col-sm-2 col-lg-3" data-aos="fade-up" data-aos-duration="700">
               <i class="mt-3 iconify codeigniter" data-width="45" data-icon="simple-icons:codeigniter" style="color: #e38716;"></i>
               <h5 class="card-title mt-2">CodeIgniter</h5>
             </div>
-            <div class="col-sm-2 col-lg-3" data-aos="flip-right" data-aos-duration="700">
+            <div class="col-sm-2 col-lg-3" data-aos="fade-left" data-aos-duration="700">
               <i class="fab fa-laravel"></i>
               <h5 class="card-title">Laravel</h5>
             </div>
@@ -217,7 +223,7 @@
     <!-- Akhir Skill -->
 
     <!-- Projects -->
-    <section id="projects">
+    <section id="projects" class="overflow-hidden">
       <div class="container">
         <div class="row text-center">
           <div class="col-sm-12 mb-3 mt-5">
@@ -225,7 +231,7 @@
           </div>
         </div>
         <div class="row justify-content-center g-5">
-          <div class="col-lg-3">
+          <div class="col-lg-3 project-box">
             <div class="card project-tile" data-aos="fade-up" data-aos-duration="700">
               <img src="img/projects/twice.png" class="card-img-top" alt="Project 1" />
               <div class="card-body">
@@ -236,7 +242,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 project-box">
             <div class="card project-tile" data-aos="fade-up" data-aos-duration="700"  data-aos-delay="200">
               <img src="img/projects/twice-survey.png" class="card-img-top" alt="Project 2" />
               <div class="card-body">
@@ -247,7 +253,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 project-box">
             <div class="card project-tile" data-aos="fade-up" data-aos-duration="700"  data-aos-delay="400">
               <img src="img/projects/tech-docs.png" class="card-img-top" alt="Project 3" />
               <div class="card-body">
@@ -258,7 +264,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 project-box">
             <div class="card project-tile" data-aos="fade-up" data-aos-duration="700" data-aos-delay="600">
               <img src="img/projects/landing-page.png" class="card-img-top" alt="Project 4" />
               <div class="card-body">
@@ -269,7 +275,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 project-box">
             <div class="card project-tile" data-aos="fade-up" data-aos-duration="700"  data-aos-delay="400">
               <img src="img/projects/portfolio.png" alt="DC Image Thumbnail" class="card-img-top">
               <div class="card-body">
@@ -280,7 +286,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 project-box">
             <div class="card project-tile" data-aos="fade-up" data-aos-duration="700" data-aos-delay="200">
               <img src="img/projects/dc.png" alt="DC Image Thumbnail" class="card-img-top">
               <div class="card-body">
@@ -291,7 +297,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3">
+          <div class="col-lg-3 project-box">
             <div class="card project-tile" data-aos="fade-up" data-aos-duration="700">
               <img src="img/projects/portfolio2.png" alt="Portfolio 2" class="card-img-top">
               <div class="card-body">
@@ -307,59 +313,53 @@
     <!-- Akhir Projects -->
 
     <!-- Gallery -->
-    <section id="gallery">
+    <section id="gallery" class="overflow-hidden">
       <div class="container">
         <div class="row justify-content-center text-center">
           <div class="col-sm-12">
             <h2>Gallery</h2>
           </div>
         </div>
-        <div class="row justify-content-start my-sm-5 g-5">
-          <div class="col-md-2">
-            <img src="img/Gallery/gallery1.png" alt="Gallery" class="img-thumbnail p-2">
+        <div class="row justify-content-center g-5 my-5">
+          <div class="col-lg-2" data-aos="fade-down-right">
+            <img src="img/Gallery/gallery1.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
-          <div class="col-md-2">
-            <img src="img/Gallery/gallery2.png" alt="Gallery" class="img-thumbnail p-2">
+          <div class="col-lg-2" data-aos="fade-down">
+            <img src="img/Gallery/gallery2.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
-          <div class="col-md-2">
-            <img src="img/Gallery/gallery3.png" alt="Gallery" class="img-thumbnail p-2">
-          </div>
-          <div class="col-md-6" style="border-bottom: 2px solid #aaa;">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem ratione at quae odio mollitia? Eaque architecto reiciendis fuga labore maiores fugit maxime sequi iste beatae exercitationem aperiam, sed vitae excepturi quia non, id vel, quaerat saepe officiis? Necessitatibus similique saepe autem alias officiis. Odit sint blanditiis quis autem mollitia molestiae!</p>
+          <div class="col-lg-2" data-aos="fade-down-left">
+            <img src="img/Gallery/gallery3.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
         </div>
         
         
-        <div class="row justify-content-center my-sm-5 g-5">
-          <div class="col-md-2" style="border-bottom: 2px solid #aaa;">
-            <img src="img/Gallery/gallery4.png" alt="Gallery" class="img-thumbnail p-2 mb-3">
+        <div class="row justify-content-center g-5 mb-5">
+          <div class="col-lg-2" data-aos="fade-right">
+            <img src="img/Gallery/gallery4.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
-          <div class="col-md-2" style="border-bottom: 2px solid #aaa;">
-            <img src="img/Gallery/gallery5.png" alt="Gallery" class="img-thumbnail p-2 mb-3">
+          <div class="col-lg-2" data-aos="zoom-in-right">
+            <img src="img/Gallery/gallery5.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
-          <div class="col-md-2">
-            <img src="img/Gallery/gallery8.png" alt="Gallery" class="img-thumbnail p-2 mb-3">
+          <div class="col-lg-2" data-aos="zoom-in">
+            <img src="img/Gallery/gallery8.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
-          <div class="col-md-2" style="border-bottom: 2px solid #aaa;">
-            <img src="img/Gallery/gallery6.png" alt="Gallery" class="img-thumbnail p-2 mb-3">
+          <div class="col-lg-2" data-aos="zoom-in-left">
+            <img src="img/Gallery/gallery6.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
-          <div class="col-md-2" style="border-bottom: 2px solid #aaa;">
-            <img src="img/Gallery/gallery7.png" alt="Gallery" class="img-thumbnail p-2 mb-3">
+          <div class="col-lg-2" data-aos="fade-left">
+            <img src="img/Gallery/gallery7.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
         </div>
         
-        <div class="row justify-content-end my-sm-5 g-5">
-          <div class="col-md-6" style="border-bottom: 2px solid #aaa;">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate possimus quasi aliquid modi dolores quis rem labore voluptatum tenetur, facere unde placeat harum pariatur fuga cumque quibusdam vel sit temporibus aliquam. Perferendis beatae, quisquam cum odit sequi sit sunt exercitationem magnam quae, tempore ad deleniti fugiat illum temporibus ex cumque.</p>
+        <div class="row justify-content-center g-5">
+          <div class="col-lg-2" data-aos="fade-up-right">
+            <img src="img/Gallery/gallery9.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
-          <div class="col-md-2">
-            <img src="img/Gallery/gallery9.png" alt="Gallery" class="img-thumbnail p-2">
+          <div class="col-lg-2" data-aos="fade-up">
+            <img src="img/Gallery/gallery10.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
-          <div class="col-md-2">
-            <img src="img/Gallery/gallery10.png" alt="Gallery" class="img-thumbnail p-2">
-          </div>
-          <div class="col-md-2">
-            <img src="img/Gallery/gallery11.png" alt="Gallery" class="img-thumbnail p-2">
+          <div class="col-lg-2" data-aos="fade-up-left">
+            <img src="img/Gallery/gallery11.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
           </div>
         </div>
 
@@ -374,7 +374,7 @@
     <!-- Akhir Gallery -->
 
     <!-- Certificate -->
-    <section id="certificate">
+    <section id="certificate" class="overflow-hidden">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -384,15 +384,7 @@
         <div class="row my-3">
           <div class="col-lg-10">
             <div class="card">
-              <div class="row">
-                <div class="col-md-8">
-                  <img src="img/certificate/html.jpg" alt="HTML" class="img-fluid">
-                </div>
-                <div class="col-md-4 my-3">
-                  <h5 class="card-title py-3 text-center" style="border-bottom: 1px solid #aaa;">HTML</h5>
-                  <p class="card-text text-center mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores iure aut asperiores autem deserunt quasi inventore iste soluta quia quod repellendus nobis alias quibusdam ipsum, quisquam error eum unde velit labore quidem facilis! Quas enim praesentium fugit illo veniam ullam ut mollitia error nostrum architecto! Magni vero quis et error!.</p>
-                </div>
-              </div>
+              <img src="img/certificate/html.jpg" data-aos="fade-right" alt="HTML" class="img-fluid">
             </div>
           </div>
         </div>
@@ -400,15 +392,7 @@
         <div class="row my-3 justify-content-end">
           <div class="col-lg-10">
             <div class="card">
-              <div class="row justify-content-end">
-                <div class="col-md-4 my-3">
-                  <h5 class="card-title py-3 text-center" style="border-bottom: 1px solid #aaa;">CSS</h5>
-                  <p class="card-text text-center mx-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum saepe velit harum amet, iure inventore atque nobis exercitationem tempora. Quisquam cupiditate eligendi quis deserunt dicta nostrum, quidem animi excepturi voluptas dolore nesciunt qui perferendis architecto magni amet expedita vitae dolor ullam impedit ducimus laudantium quia assumenda corrupti. Commodi, nostrum nisi.</p>
-                </div>
-                <div class="col-md-8">
-                  <img src="img/certificate/css.jpg" alt="CSS" class="img-fluid">
-                </div>
-              </div>
+              <img src="img/certificate/css.jpg" data-aos="fade-left" alt="CSS" class="img-fluid">
             </div>
           </div>
         </div>
@@ -416,15 +400,7 @@
         <div class="row my-3">
           <div class="col-lg-10">
             <div class="card">
-              <div class="row">
-                <div class="col-md-8">
-                  <img src="img/certificate/resposive-web.jpg" alt="Responsive Web Design" class="img-fluid">
-                </div>
-                <div class="col-md-4 my-3">
-                  <h5 class="card-title py-3 text-center" style="border-bottom: 1px solid #aaa;">Responsive Web Design</h5>
-                  <p class="card-text text-center mx-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet ducimus sit nihil, in accusamus dicta adipisci, dolorem ullam earum itaque aliquam similique fuga fugit? Repellat molestiae dolorem ex porro maiores? Quaerat beatae voluptatem deserunt voluptatibus porro expedita, sunt voluptatum magnam enim quisquam. Ratione suscipit ipsam maxime ab pariatur a maiores.</p>
-                </div>
-              </div>
+              <img src="img/certificate/resposive-web.jpg" data-aos="fade-right" alt="Responsive Web Design" class="img-fluid">
             </div>
           </div>
         </div>
@@ -432,15 +408,7 @@
         <div class="row my-3 justify-content-end">
           <div class="col-lg-10">
             <div class="card">
-              <div class="row justify-content-end">
-                <div class="col-md-4 my-3">
-                  <h5 class="card-title py-3 text-center" style="border-bottom: 1px solid #aaa;">Javascript</h5>
-                  <p class="card-text text-center mx-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores, quibusdam repudiandae. Sapiente deserunt eius ratione porro eos tenetur dolor odit accusamus vel? Quidem voluptates distinctio quo fuga, soluta harum cumque quas maiores doloribus tempore labore reprehenderit aspernatur dolor aliquid cum, saepe esse explicabo, libero</p>
-                </div>
-                <div class="col-md-8">
-                  <img src="img/certificate/javascript.png" alt="Javascript" class="img-fluid">
-                </div>
-              </div>
+              <img src="img/certificate/javascript.png" data-aos="fade-left" alt="Javascript" class="img-fluid">
             </div>
           </div>
         </div>
@@ -448,15 +416,7 @@
         <div class="row my-3">
           <div class="col-lg-10">
             <div class="card">
-              <div class="row">
-                <div class="col-md-8">
-                  <img src="img/certificate/freecodecamp.png" alt="Responsive Web Design" class="img-fluid">
-                </div>
-                <div class="col-md-4 my-3">
-                  <h5 class="card-title py-3 text-center" style="border-bottom: 1px solid #aaa;">Responsive Web Design Freecodecamp</h5>
-                  <p class="card-text text-center mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius aspernatur id officia facere maxime inventore atque perferendis at. Et officia, iste nostrum voluptatibus nisi voluptates odit maiores voluptatum omnis magnam velit fugiat dolore dolores reiciendis minima vitae cupiditate recusandae dolor consequatur? Neque hic laborum ipsa dolorem porro ducimus velit blanditiis.</p>
-                </div>
-              </div>
+              <img src="img/certificate/freecodecamp.png" data-aos="fade-right" alt="Responsive Web Design" class="img-fluid">
             </div>
           </div>
         </div>  
@@ -471,7 +431,7 @@
     <!-- Akhir Certificate -->
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="overflow-hidden">
       <div class="container">
         <div class="row text-center">
           <div class="col-sm-12">
@@ -532,5 +492,25 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
       <!-- My JS -->
       <script src="js/app.js"></script>
+      <!-- Tilt JS -->
+      <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+      <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".galler"), {
+          max: 25,
+          speed: 400,
+          glare: true,
+          gyroscope: true,
+        });
+        VanillaTilt.init(document.querySelector(".logo-box"), {
+          max: 25,
+          speed: 400,
+          gyroscope: true,
+        });
+        VanillaTilt.init(document.querySelectorAll(".project-box"), {
+          max: 25,
+          speed: 400,
+          gyroscope: true,
+        });
+      </script>
   </body>
 </html>

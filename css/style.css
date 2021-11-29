@@ -7,15 +7,32 @@ body::-webkit-scrollbar {
   width: 12px;
   background-color: #212529;
 }
-body::-webkit-scrollbar-thumb{
+body::-webkit-scrollbar-thumb {
   background: linear-gradient(transparent, rgba(209, 209, 209));
   border-radius: 5px;
 }
-.card-title{
+.card-title {
   font-size: 12pt;
 }
-.card-text{
+.card-text {
   font-size: 10pt;
+}
+
+/* Tilt JS */
+.logo-box {
+  transform-style: preserve-3d;
+  width: 12rem;
+  margin: auto;
+  border-radius: 50%;
+  background: #212529;
+}
+.logo-box img {
+  background: transparent;
+  transform: translate3d(0, 0, 50px);
+}
+
+.software-box {
+  padding: 2rem;
 }
 
 /*Jumbotron*/
@@ -23,12 +40,15 @@ body::-webkit-scrollbar-thumb{
   padding-top: 6rem;
   height: 450px;
 }
-.jumbotron img {
-  border: 2px solid rgb(209, 209, 209);
-}
+
 #jumbotron h1,
 #jumbotron p {
   color: #000;
+}
+
+#jumbotron .kata:hover {
+  /* color: #fff; */
+  font-weight: bold;
 }
 
 /*About*/
@@ -126,7 +146,7 @@ body::-webkit-scrollbar-thumb{
   background-color: rgb(209, 209, 209);
   color: #000;
 }
-#projects h2 {
+h2 {
   margin-top: -7rem;
 }
 
@@ -136,7 +156,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 /* Contoh */
-#certificate{
+#certificate {
   background-color: rgb(209, 209, 209);
   overflow: hidden;
 }
@@ -163,13 +183,19 @@ section {
 }
 
 /* Media Query */
-@media (min-width: 676px) {
+@media (max-width: 676px) {
   #skill .content {
     display: flex;
   }
   #skill .card {
     margin: 15px auto;
     width: 150px;
+  }
+}
+
+@media (max-width: 1946px) {
+  .none {
+    display: none;
   }
 }
 
