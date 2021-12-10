@@ -99,3 +99,9 @@ gsap.from(".jumbotron .display-4", {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   } 
+
+// Nilai Scroll
+  window.addEventListener("scroll", function (event) {
+  var scroll = this.scrollY;
+  document.querySelector('.nama').style.transform = "rotate(-"+scroll/10+"deg)";
+});

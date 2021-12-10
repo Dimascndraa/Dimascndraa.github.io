@@ -18,6 +18,15 @@ body::-webkit-scrollbar-thumb {
   font-size: 10pt;
 }
 
+.nama {
+  animation: rotate 30s linear infinite;
+  position: fixed;
+  right: 70vw;
+  top: 80vh;
+  transform: translate(-70vw, -80vh);
+  color: aqua;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
