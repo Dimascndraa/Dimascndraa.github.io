@@ -9,14 +9,15 @@ textarea {
   height: 80px;
   margin-bottom: 30px;
 }
-input, textarea {
+input,
+textarea {
   width: 100%;
   box-shadow: none;
   outline: none;
   border: none;
   border-bottom: 2px solid #999;
 }
-button[type=submit] {
+button[type="submit"] {
   border-bottom: none;
   cursor: pointer;
   margin-bottom: 0;
@@ -36,7 +37,7 @@ input:focus ~ label,
 input:valid ~ label {
   top: -10px;
   left: 0;
-  color: #ff97a1;
+  color: #ccc;
   font-size: 12px;
   font-weight: bold;
 }
@@ -44,7 +45,7 @@ textarea:focus ~ label,
 textarea:valid ~ label {
   top: -20px;
   left: 0;
-  color: #ff97a1;
+  color: #ccc;
   font-size: 12px;
   font-weight: bold;
 }
@@ -52,4 +53,5 @@ input:focus,
 textarea:focus,
 input:valid,
 textarea:valid {
-  border-bottom: 3px solid #ff97a1;
+  border-bottom: 3px solid #ccc;
+}

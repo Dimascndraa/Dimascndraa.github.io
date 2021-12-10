@@ -11,6 +11,10 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(transparent, rgba(209, 209, 209));
   border-radius: 5px;
 }
+.navbar {
+  background-color: #121212;
+}
+
 .card-title {
   font-size: 12pt;
 }
@@ -24,7 +28,7 @@ body::-webkit-scrollbar-thumb {
   width: 12rem;
   margin: auto;
   border-radius: 50%;
-  background: #212529;
+  background: #121212;
 }
 .logo-box img {
   background: transparent;
@@ -36,27 +40,30 @@ body::-webkit-scrollbar-thumb {
 }
 
 /*Jumbotron*/
-.jumbotron {
+#jumbotron {
   padding-top: 6rem;
   height: 450px;
+  background-color: #1f1f1f;
+  z-index: 999;
 }
 
 #jumbotron h1,
 #jumbotron p {
-  color: #000;
+  color: #cacaca;
 }
 
 #jumbotron .kata:hover {
-  /* color: #fff; */
   font-weight: bold;
+  color: #fff;
 }
 
 /*About*/
 #about {
-  background-color: rgb(209, 209, 209);
+  background-color: #121212;
   padding-bottom: 4rem;
-  color: #fff;
+  color: #cccccc;
   overflow: hidden;
+  margin-top: -5rem;
 }
 #about .container {
   margin-top: -5rem;
@@ -72,11 +79,9 @@ body::-webkit-scrollbar-thumb {
   display: inline-block;
   width: 50px;
   height: 50px;
-  background: #f1f1f1;
   margin: 0 1vw;
   border-radius: 30%;
-  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
-  color: rgb(209, 209, 209);
+  color: #ccc;
   overflow: hidden;
   position: relative;
 }
@@ -86,14 +91,14 @@ body::-webkit-scrollbar-thumb {
 }
 #about .middle .btn:hover i {
   transform: scale(1.5);
-  color: #fff;
+  color: #121212;
 }
 #about .middle .btn::before {
   content: "";
   position: absolute;
   width: 120%;
   height: 120%;
-  background: rgb(209, 209, 209);
+  background: #ccc;
   transform: rotate(45deg);
   left: -110%;
   top: 90%;
@@ -106,13 +111,13 @@ body::-webkit-scrollbar-thumb {
 
 /*Skill*/
 #skill {
-  margin-top: -6rem;
-  margin-bottom: 6rem;
+  margin-top: -12rem;
+  padding-bottom: 2rem;
   overflow: hidden;
+  background-color: #1f1f1f;
+  color: #ccc;
 }
-#skill h2 {
-  color: #000 !important;
-}
+
 #skill .card {
   margin: 0 30px 30px 20px;
 }
@@ -143,7 +148,7 @@ body::-webkit-scrollbar-thumb {
 #projects {
   padding-top: -2rem;
   padding-bottom: 4rem;
-  background-color: rgb(209, 209, 209);
+  background-color: #121212;
   color: #000;
 }
 h2 {
@@ -152,29 +157,47 @@ h2 {
 
 /* Gallery */
 #gallery {
+  color: #ccc;
   margin-top: -7rem;
+  background-color: #1f1f1f;
 }
 
-/* Contoh */
+/* Certificate */
 #certificate {
-  background-color: rgb(209, 209, 209);
+  background-color: #121212;
   overflow: hidden;
+}
+#certificate * {
+  background-color: #121212;
+}
+
+/* Contact */
+#contact {
+  background-color: #1f1f1f;
+  color: #ccc;
+}
+#contact input,
+#contact textarea {
+  background-color: #1f1f1f;
 }
 
 /*Footer*/
 #footer {
   font-size: 14px;
-  background-color: #212529;
+  background-color: #121212;
 }
 #footer p {
   margin-top: -7rem;
 }
 #footer a {
   text-decoration: none;
-  color: #fff;
+  color: #ccc;
 }
 #footer a:hover {
   text-decoration: underline;
+}
+#footer .love {
+  animation: love 5s infinite;
 }
 
 /*section*/
