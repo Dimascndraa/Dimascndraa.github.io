@@ -21,9 +21,9 @@ body::-webkit-scrollbar-thumb {
 .nama {
   animation: rotate 30s linear infinite;
   position: fixed;
-  right: 70vw;
+  right: 85vw;
   top: 80vh;
-  transform: translate(-70vw, -80vh);
+  transform: translate(-85vw, -80vh);
   color: aqua;
 }
 
@@ -278,6 +278,14 @@ section {
   #skill .card {
     margin: 15px auto;
     width: 150px;
+  }
+  .nama {
+    animation: rotate 30s linear infinite;
+    position: fixed;
+    right: 70vw;
+    top: 80vh;
+    transform: translate(-70vw, -80vh);
+    color: aqua;
   }
 }
 
