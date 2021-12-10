@@ -11,14 +11,71 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(transparent, rgba(209, 209, 209));
   border-radius: 5px;
 }
-.navbar {
-  background-color: #121212;
-}
 .card-title {
   font-size: 12pt;
 }
 .card-text {
   font-size: 10pt;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: 9999;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+  box-shadow: none;
+}
+.navbar.sticky {
+  padding: 15px 0;
+  background: #121212;
+}
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .logo a {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span {
+  color: #121212;
+  transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span {
+  color: #fff;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:hover {
+  color: mediumblue;
+}
+.navbar.sticky .menu li a:hover {
+  color: #fff;
 }
 
 /* Tilt JS */
@@ -74,7 +131,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   text-align: center;
 }
-#about .middle .btn {
+#about .middle .btn-custom {
   display: inline-block;
   width: 50px;
   height: 50px;
@@ -84,15 +141,15 @@ body::-webkit-scrollbar-thumb {
   overflow: hidden;
   position: relative;
 }
-#about .middle .btn i {
-  margin-top: 1.5vh;
+#about .middle .btn-custom i {
+  margin-top: 2.5vh;
   transition: 0.2s linear;
 }
-#about .middle .btn:hover i {
+#about .middle .btn-custom:hover i {
   transform: scale(1.5);
   color: #121212;
 }
-#about .middle .btn::before {
+#about .middle .btn-custom::before {
   content: "";
   position: absolute;
   width: 120%;
@@ -102,7 +159,7 @@ body::-webkit-scrollbar-thumb {
   left: -110%;
   top: 90%;
 }
-#about .middle .btn:hover::before {
+#about .middle .btn-custom:hover::before {
   animation: aaa 0.7s 1;
   top: -10%;
   left: -10%;
