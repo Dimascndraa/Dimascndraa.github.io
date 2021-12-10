@@ -25,6 +25,11 @@ body::-webkit-scrollbar-thumb {
   top: 80vh;
   transform: translate(-85vw, -80vh);
   color: aqua;
+  cursor: pointer;
+  fill: #ccc;
+}
+.nama:hover {
+  fill: #f93154;
 }
 
 #btn-back-to-top {
