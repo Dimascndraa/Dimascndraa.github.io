@@ -128,19 +128,19 @@ body::-webkit-scrollbar-thumb {
   font-size: 50px;
 }
 #skill i.fa-html5 {
-  color: #d2240f;
+  color: #ccc;
 }
 #skill i.fa-css3-alt {
-  color: #2b4abf;
+  color: #ccc;
 }
 #skill i.fa-bootstrap {
-  color: #8b03a3;
+  color: #ccc;
 }
 #skill i.fa-php {
-  color: #4249f9;
+  color: #ccc;
 }
 #skill i.fa-laravel {
-  color: rgb(227, 22, 22);
+  color: #ccc;
 }
 
 /*Projects*/
