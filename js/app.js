@@ -105,3 +105,11 @@ gsap.from(".jumbotron .display-4", {
   var scroll = this.scrollY;
   document.querySelector('.nama').style.transform = "rotate(-"+scroll/10+"deg)";
 });
+
+// Scroll tail
+  $(document).mousemove(function(e){
+  $(".mouse").css("display", "block");
+     $(".border").css({left:e.pageX, top:e.pageY});
+     x = e.pageX;
+     y = e.pageY;
+ });

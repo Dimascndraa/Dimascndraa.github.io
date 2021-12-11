@@ -42,6 +42,22 @@ body::-webkit-scrollbar-thumb {
   z-index: 9999;
 }
 
+.border {
+  padding: 1%;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition: 0.1s;
+}
+.mouse {
+  background-color: #ccc;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  transition: 5s;
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
