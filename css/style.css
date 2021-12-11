@@ -49,6 +49,7 @@ body::-webkit-scrollbar-thumb {
   transform: translate(-50%, -50%);
   position: absolute;
   transition: 0.1s;
+  z-index: -999999999;
 }
 .mouse {
   background-color: #ccc;
@@ -56,6 +57,7 @@ body::-webkit-scrollbar-thumb {
   height: 10px;
   border-radius: 50%;
   transition: 5s;
+  z-index: -99999999;
 }
 
 /* Navbar */
