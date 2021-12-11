@@ -104,6 +104,9 @@ gsap.from(".jumbotron .display-4", {
   window.addEventListener("scroll", function (event) {
   var scroll = this.scrollY;
   document.querySelector('.nama').style.transform = "rotate(-"+scroll/10+"deg)";
+  var warna = document.querySelector('.nama').style.filter = "hue-rotate(-"+scroll/5+"deg)";
+  document.querySelector('.nama').style.fill = warna;
+
 });
 
 // Scroll tail

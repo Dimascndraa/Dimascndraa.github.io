@@ -26,9 +26,9 @@ body::-webkit-scrollbar-thumb {
   transform: translate(-85vw, -80vh);
   color: aqua;
   cursor: pointer;
-  fill: #ccc;
+  /* fill: #ccc;*/
 }
-.nama:hover {
+.nama {
   fill: #f93154;
 }
 
