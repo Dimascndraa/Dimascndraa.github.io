@@ -116,3 +116,27 @@ gsap.from(".jumbotron .display-4", {
      x = e.pageX;
      y = e.pageY;
  });
+
+//  Tilt JS
+VanillaTilt.init(document.querySelectorAll(".galler"), {
+          max: 25,
+          speed: 400,
+          glare: true,
+          gyroscope: true,
+        });
+        VanillaTilt.init(document.querySelector(".logo-box"), {
+          max: 25,
+          speed: 400,
+          gyroscope: true,
+        });
+        VanillaTilt.init(document.querySelectorAll(".project-box"), {
+          max: 25,
+          speed: 400,
+          gyroscope: true,
+        });
+
+//  Light Gallery
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })

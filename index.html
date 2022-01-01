@@ -22,6 +22,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css" rel="stylesheet" />
+    <!-- Ligchtbox CSS -->
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/contact.css" />
@@ -340,24 +342,26 @@
           </div>
         </div>
     </section>
-    <svg id="visual" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg"
+    <svg class="waves" id="visual" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
       <rect x="0" y="0" width="960" height="540" fill="#1f1f1f"></rect>
-      <path
-        d="M0 348L13.3 349.7C26.7 351.3 53.3 354.7 80 347C106.7 339.3 133.3 320.7 160 296.8C186.7 273 213.3 244 240 249C266.7 254 293.3 293 320 306.3C346.7 319.7 373.3 307.3 400 314.5C426.7 321.7 453.3 348.3 480 330.7C506.7 313 533.3 251 560 244C586.7 237 613.3 285 640 298C666.7 311 693.3 289 720 271.8C746.7 254.7 773.3 242.3 800 241.5C826.7 240.7 853.3 251.3 880 261.5C906.7 271.7 933.3 281.3 946.7 286.2L960 291L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
-        fill="#1f1f1f"></path>
-      <path
-        d="M0 243L13.3 230.7C26.7 218.3 53.3 193.7 80 205.3C106.7 217 133.3 265 160 280.2C186.7 295.3 213.3 277.7 240 259C266.7 240.3 293.3 220.7 320 226.7C346.7 232.7 373.3 264.3 400 273.2C426.7 282 453.3 268 480 259.2C506.7 250.3 533.3 246.7 560 246.2C586.7 245.7 613.3 248.3 640 243.8C666.7 239.3 693.3 227.7 720 233.8C746.7 240 773.3 264 800 263.5C826.7 263 853.3 238 880 230.3C906.7 222.7 933.3 232.3 946.7 237.2L960 242L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
-        fill="#1c1c1c"></path>
-      <path
-        d="M0 225L13.3 223C26.7 221 53.3 217 80 205C106.7 193 133.3 173 160 163C186.7 153 213.3 153 240 168.8C266.7 184.7 293.3 216.3 320 217.3C346.7 218.3 373.3 188.7 400 167.7C426.7 146.7 453.3 134.3 480 133.7C506.7 133 533.3 144 560 161.3C586.7 178.7 613.3 202.3 640 208.8C666.7 215.3 693.3 204.7 720 202.5C746.7 200.3 773.3 206.7 800 199.2C826.7 191.7 853.3 170.3 880 163.8C906.7 157.3 933.3 165.7 946.7 169.8L960 174L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
-        fill="#191919"></path>
-      <path
-        d="M0 100L13.3 101.8C26.7 103.7 53.3 107.3 80 110.7C106.7 114 133.3 117 160 124.8C186.7 132.7 213.3 145.3 240 146.7C266.7 148 293.3 138 320 128.5C346.7 119 373.3 110 400 107.5C426.7 105 453.3 109 480 120C506.7 131 533.3 149 560 155C586.7 161 613.3 155 640 156.2C666.7 157.3 693.3 165.7 720 161.2C746.7 156.7 773.3 139.3 800 136.5C826.7 133.7 853.3 145.3 880 149.5C906.7 153.7 933.3 150.3 946.7 148.7L960 147L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
-        fill="#161616"></path>
-      <path
-        d="M0 65L13.3 63.7C26.7 62.3 53.3 59.7 80 69.3C106.7 79 133.3 101 160 102.5C186.7 104 213.3 85 240 74.5C266.7 64 293.3 62 320 68.5C346.7 75 373.3 90 400 89.5C426.7 89 453.3 73 480 74.5C506.7 76 533.3 95 560 96.8C586.7 98.7 613.3 83.3 640 73.5C666.7 63.7 693.3 59.3 720 64C746.7 68.7 773.3 82.3 800 89.2C826.7 96 853.3 96 880 97.2C906.7 98.3 933.3 100.7 946.7 101.8L960 103L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
-        fill="#121212"></path>
+      <g class="parallax">
+        <path
+          d="M0 348L13.3 349.7C26.7 351.3 53.3 354.7 80 347C106.7 339.3 133.3 320.7 160 296.8C186.7 273 213.3 244 240 249C266.7 254 293.3 293 320 306.3C346.7 319.7 373.3 307.3 400 314.5C426.7 321.7 453.3 348.3 480 330.7C506.7 313 533.3 251 560 244C586.7 237 613.3 285 640 298C666.7 311 693.3 289 720 271.8C746.7 254.7 773.3 242.3 800 241.5C826.7 240.7 853.3 251.3 880 261.5C906.7 271.7 933.3 281.3 946.7 286.2L960 291L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
+          fill="#1f1f1f"></path>
+        <path
+          d="M0 243L13.3 230.7C26.7 218.3 53.3 193.7 80 205.3C106.7 217 133.3 265 160 280.2C186.7 295.3 213.3 277.7 240 259C266.7 240.3 293.3 220.7 320 226.7C346.7 232.7 373.3 264.3 400 273.2C426.7 282 453.3 268 480 259.2C506.7 250.3 533.3 246.7 560 246.2C586.7 245.7 613.3 248.3 640 243.8C666.7 239.3 693.3 227.7 720 233.8C746.7 240 773.3 264 800 263.5C826.7 263 853.3 238 880 230.3C906.7 222.7 933.3 232.3 946.7 237.2L960 242L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
+          fill="#1c1c1c"></path>
+        <path
+          d="M0 225L13.3 223C26.7 221 53.3 217 80 205C106.7 193 133.3 173 160 163C186.7 153 213.3 153 240 168.8C266.7 184.7 293.3 216.3 320 217.3C346.7 218.3 373.3 188.7 400 167.7C426.7 146.7 453.3 134.3 480 133.7C506.7 133 533.3 144 560 161.3C586.7 178.7 613.3 202.3 640 208.8C666.7 215.3 693.3 204.7 720 202.5C746.7 200.3 773.3 206.7 800 199.2C826.7 191.7 853.3 170.3 880 163.8C906.7 157.3 933.3 165.7 946.7 169.8L960 174L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
+          fill="#191919"></path>
+        <path
+          d="M0 100L13.3 101.8C26.7 103.7 53.3 107.3 80 110.7C106.7 114 133.3 117 160 124.8C186.7 132.7 213.3 145.3 240 146.7C266.7 148 293.3 138 320 128.5C346.7 119 373.3 110 400 107.5C426.7 105 453.3 109 480 120C506.7 131 533.3 149 560 155C586.7 161 613.3 155 640 156.2C666.7 157.3 693.3 165.7 720 161.2C746.7 156.7 773.3 139.3 800 136.5C826.7 133.7 853.3 145.3 880 149.5C906.7 153.7 933.3 150.3 946.7 148.7L960 147L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
+          fill="#161616"></path>
+        <path
+          d="M0 65L13.3 63.7C26.7 62.3 53.3 59.7 80 69.3C106.7 79 133.3 101 160 102.5C186.7 104 213.3 85 240 74.5C266.7 64 293.3 62 320 68.5C346.7 75 373.3 90 400 89.5C426.7 89 453.3 73 480 74.5C506.7 76 533.3 95 560 96.8C586.7 98.7 613.3 83.3 640 73.5C666.7 63.7 693.3 59.3 720 64C746.7 68.7 773.3 82.3 800 89.2C826.7 96 853.3 96 880 97.2C906.7 98.3 933.3 100.7 946.7 101.8L960 103L960 0L946.7 0C933.3 0 906.7 0 880 0C853.3 0 826.7 0 800 0C773.3 0 746.7 0 720 0C693.3 0 666.7 0 640 0C613.3 0 586.7 0 560 0C533.3 0 506.7 0 480 0C453.3 0 426.7 0 400 0C373.3 0 346.7 0 320 0C293.3 0 266.7 0 240 0C213.3 0 186.7 0 160 0C133.3 0 106.7 0 80 0C53.3 0 26.7 0 13.3 0L0 0Z"
+          fill="#121212"></path>
+      </g>
     </svg>
     <!-- Akhir Projects -->
 
@@ -372,7 +376,7 @@
         </div>
         <div class="row justify-content-center g-5 my-5">
           <div class="col-lg-2" data-aos="fade-down-right">
-            <img src="img/Gallery/gallery1.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
+            <img src="img/Gallery/gallery1.png" alt="Gallery" class="custom img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false" data-lightbox="gallery1" data-title="My caption">
           </div>
           <div class="col-lg-2" data-aos="fade-down">
             <img src="img/Gallery/gallery2.png" alt="Gallery" class="img-thumbnail p-2 d-block m-auto galler" data-tilt-reset="false">
@@ -448,25 +452,12 @@
         <div class="row my-3">
           <div class="col-lg-6">
             <div class="card">
-              <img src="img/certificate/html.jpg" data-aos="fade-right" alt="HTML" class="img-fluid">
+              <img src="img/certificate/html.jpg" data-aos="fade-right" alt="HTML" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="HTML">
             </div>
           </div>
           <div class="col-lg-6">
             <div class="card">
-              <img src="img/certificate/css.jpg" data-aos="fade-left" alt="CSS" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        
-        <div class="row my-3">
-          <div class="col-lg-6">
-            <div class="card">
-              <img src="img/certificate/php.jpg" data-aos="fade-right" alt="Responsive Web Design" class="img-fluid">
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card">
-              <img src="img/certificate/resposive-web.jpg" data-aos="fade-left" alt="Javascript" class="img-fluid">
+              <img src="img/certificate/css.jpg" data-aos="fade-left" alt="CSS" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="CSS">
             </div>
           </div>
         </div>
@@ -474,12 +465,25 @@
         <div class="row my-3">
           <div class="col-lg-6">
             <div class="card">
-              <img src="img/certificate/sql.png" data-aos="fade-right" alt="Responsive Web Design" class="img-fluid">
+              <img src="img/certificate/php.jpg" data-aos="fade-right" alt="PHP" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="PHP">
             </div>
           </div>
           <div class="col-lg-6">
             <div class="card">
-              <img src="img/certificate/javascript.png" data-aos="fade-left" alt="Responsive Web Design" class="img-fluid">
+              <img src="img/certificate/resposive-web.jpg" data-aos="fade-left" alt="Responsive Web Design" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="Responsive Web Design">
+            </div>
+          </div>
+        </div>
+        
+        <div class="row my-3">
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="img/certificate/sql.png" data-aos="fade-right" alt="SQL" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="SQL">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="img/certificate/javascript.png" data-aos="fade-left" alt="Javascript" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="Javascript">
             </div>
           </div>
         </div>  
@@ -487,7 +491,7 @@
         <div class="row my-3 justify-content-center">
           <div class="col-lg-6">
             <div class="card">
-              <img src="img/certificate/jquery.jpg" data-aos="fade-right" alt="Responsive Web Design" class="img-fluid">
+              <img src="img/certificate/jquery.jpg" data-aos="fade-right" alt="JQuery" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="JQuery">
             </div>
           </div>
         </div>  
@@ -495,7 +499,13 @@
         <div class="row my-3 justify-content-center">
           <div class="col-lg-6">
             <div class="card">
-              <img src="img/certificate/freecodecamp.png" data-aos="fade-left" alt="Responsive Web Design" class="img-fluid">
+              <img src="img/certificate/javascript-algoritm.png" data-aos="fade-right" alt="Javascript Algoritm And Data Structure" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="Javascript Algoritm And Data Structure">
+            </div>
+          </div>
+          
+          <div class="col-lg-6">
+            <div class="card">
+              <img src="img/certificate/freecodecamp.png" data-aos="fade-left" alt="Responsive Web Design" class="img-fluid" data-mdb-toggle="tooltip" data-mdb-placement="bottom" data-mdb-html="true" title="Responsive Web Design">
             </div>
           </div>
         </div>  
@@ -586,7 +596,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-light text-center">
-            <p class="fw-bold">&copy <a href="https://www.instagram.com/dmscndraa" target="_blank">Dimas Candra</a> 2021</p>
+            <p class="fw-bold">&copy <a href="https://www.instagram.com/dmscndraa" target="_blank">Dimas Candra</a> 2022</p>
           </div>
         </div>
       </div>
@@ -753,27 +763,11 @@
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
       <!-- MDB -->
       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"></script>
-      <!-- My JS -->
-      <script src="js/app.js"></script>
       <!-- Tilt JS -->
       <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
-      <script type="text/javascript">
-        VanillaTilt.init(document.querySelectorAll(".galler"), {
-          max: 25,
-          speed: 400,
-          glare: true,
-          gyroscope: true,
-        });
-        VanillaTilt.init(document.querySelector(".logo-box"), {
-          max: 25,
-          speed: 400,
-          gyroscope: true,
-        });
-        VanillaTilt.init(document.querySelectorAll(".project-box"), {
-          max: 25,
-          speed: 400,
-          gyroscope: true,
-        });
-      </script>
+      <!-- Lightbox JS -->
+      <script src="js/lightbox.min.js"></script>
+      <!-- My JS -->
+      <script src="js/app.js"></script>
   </body>
 </html>
