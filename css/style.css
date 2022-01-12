@@ -264,14 +264,24 @@ h2 {
   background-color: #121212;
 }
 
+/* Maps */
+#maps {
+  background-color: #1f1f1f;
+}
+.map {
+  display: block;
+  margin: auto;
+}
+
 /* Contact */
 #contact {
-  background-color: #1f1f1f;
+  background-color: #121212;
   color: #ccc;
 }
 #contact input,
 #contact textarea {
-  background-color: #1f1f1f;
+  background-color: #121212;
+  color: #ccc;
 }
 
 /*Footer*/

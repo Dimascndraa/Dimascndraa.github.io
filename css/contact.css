@@ -11,6 +11,7 @@ textarea {
 }
 input,
 textarea {
+  color: #ccc;
   width: 100%;
   box-shadow: none;
   outline: none;
