@@ -271,6 +271,8 @@ h2 {
 .map {
   display: block;
   margin: auto;
+  width: 80vw;
+  height: 80vh;
 }
 
 /* Contact */
